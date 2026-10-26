@@ -1,0 +1,28 @@
+{
+  "name": "automation-raci-check",
+  "version": "1.0.0",
+  "description": "Contrôle de matrice RACI / RACI matrix check — script Node.js sans dépendance",
+  "type": "module",
+  "license": "MIT",
+  "author": "Elzam MAMAH <ceo@monsieurelzam.com> (https://monsieurelzam.com)",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "automation-raci-check": "src/raci-check.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonsieurElzam/automation-raci-check.git"
+  },
+  "homepage": "https://monsieurelzam.com/scripts",
+  "keywords": [
+    "automation",
+    "cli",
+    "nodejs",
+    "raci-check"
+  ]
+}
